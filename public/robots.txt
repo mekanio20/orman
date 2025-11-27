@@ -1,2 +1,29 @@
-User-Agent: *
-Disallow:
+# ORMAN Flooring - Robots.txt
+# Sert Ahşap Zemin ve Parke Döşeme Uzmanı
+
+User-agent: *
+Allow: /
+Allow: /images/
+Allow: /icons/
+Allow: /fonts/
+
+# Sitemap konumu
+Sitemap: https://ormanflooring.com/sitemap.xml
+
+# Crawl delay (saniye)
+Crawl-delay: 1
+
+# Google Bot için özel ayarlar
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing Bot için özel ayarlar  
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Yandex Bot için özel ayarlar
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1

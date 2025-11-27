@@ -30,4 +30,44 @@ export default defineConfig({
       },
     ],
   },
+  build: {
+    // SEO ve Performance Optimizasyonu
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true,
+      },
+    },
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['vue'],
+          lenis: ['lenis'],
+        },
+        chunkFileNames: 'assets/[name]-[hash].js',
+        entryFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: 'assets/[name]-[hash].[ext]',
+      },
+    },
+    // Gzip sıkıştırma
+    reportCompressedSize: true,
+    // Chunk boyut uyarısı
+    chunkSizeWarningLimit: 1000,
+    // CSS kod bölme
+    cssCodeSplit: true,
+    // Source map üretme (production'da false)
+    sourcemap: false,
+  },
+  // Asset optimizasyonu
+  assetsInclude: ['**/*.webp', '**/*.avif'],
+  // CSS optimizasyonu
+  css: {
+    devSourcemap: false,
+  },
+  // Önbellek optimizasyonu
+  optimizeDeps: {
+    include: ['vue', 'lenis'],
+    exclude: [],
+  },
 });

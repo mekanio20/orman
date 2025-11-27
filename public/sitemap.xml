@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  
+  <!-- Ana Sayfa -->
+  <url>
+    <loc>https://ormanflooring.com/</loc>
+    <lastmod>2024-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://ormanflooring.com/images/orman.webp</image:loc>
+      <image:title>ORMAN Flooring - Sert Ahşap Zemin</image:title>
+      <image:caption>Birinci sınıf sert ahşap zemin ve parke döşeme hizmetleri</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ormanflooring.com/images/logo.webp</image:loc>
+      <image:title>ORMAN Flooring Logo</image:title>
+      <image:caption>ORMAN Flooring şirket logosu</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Sert Ahşap Zemin Bölümü -->
+  <url>
+    <loc>https://ormanflooring.com/#sert-ahsap-zemin</loc>
+    <lastmod>2024-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://ormanflooring.com/images/1.webp</image:loc>
+      <image:title>Sert Ahşap Zemin Örnekleri</image:title>
+      <image:caption>Kaliteli sert ahşap zemin döşeme örnekleri</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Parke Döşeme Bölümü -->
+  <url>
+    <loc>https://ormanflooring.com/#parke-doseme</loc>
+    <lastmod>2024-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://ormanflooring.com/images/2.webp</image:loc>
+      <image:title>Parke Döşeme Hizmetleri</image:title>
+      <image:caption>Profesyonel parke döşeme ve montaj hizmetleri</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Hizmetlerimiz Bölümü -->
+  <url>
+    <loc>https://ormanflooring.com/#hizmetlerimiz</loc>
+    <lastmod>2024-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Avantajlarımız Bölümü -->
+  <url>
+    <loc>https://ormanflooring.com/#avantajlarimiz</loc>
+    <lastmod>2024-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- İletişim Bölümü -->
+  <url>
+    <loc>https://ormanflooring.com/#iletisim</loc>
+    <lastmod>2024-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Kafel Ürün Sayfaları -->
+  <url>
+    <loc>https://ormanflooring.com/#kafel-1</loc>
+    <lastmod>2024-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ormanflooring.com/images/kafels/kaf_1/1.webp</image:loc>
+      <image:title>Kafel Ürün Serisi 1</image:title>
+      <image:caption>Birinci sınıf kafel ürün serisi</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ormanflooring.com/#kafel-2</loc>
+    <lastmod>2024-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ormanflooring.com/images/kafels/kaf_2/1.webp</image:loc>
+      <image:title>Kafel Ürün Serisi 2</image:title>
+      <image:caption>Premium kafel ürün koleksiyonu</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ormanflooring.com/#kafel-3</loc>
+    <lastmod>2024-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ormanflooring.com/images/kafels/kaf_3/1.webp</image:loc>
+      <image:title>Kafel Ürün Serisi 3</image:title>
+      <image:caption>Özel tasarım kafel ürünleri</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ormanflooring.com/#kafel-4</loc>
+    <lastmod>2024-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ormanflooring.com/images/kafels/kaf_4/1.webp</image:loc>
+      <image:title>Kafel Ürün Serisi 4</image:title>
+      <image:caption>Modern kafel tasarımları</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ormanflooring.com/#kafel-5</loc>
+    <lastmod>2024-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ormanflooring.com/images/kafels/kaf_5/1.webp</image:loc>
+      <image:title>Kafel Ürün Serisi 5</image:title>
+      <image:caption>Klasik kafel ürün serisi</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ormanflooring.com/#kafel-6</loc>
+    <lastmod>2024-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ormanflooring.com/images/kafels/kaf_6/1.webp</image:loc>
+      <image:title>Kafel Ürün Serisi 6</image:title>
+      <image:caption>Lüks kafel koleksiyonu</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ormanflooring.com/#kafel-7</loc>
+    <lastmod>2024-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ormanflooring.com/images/kafels/kaf_7/1.webp</image:loc>
+      <image:title>Kafel Ürün Serisi 7</image:title>
+      <image:caption>Doğal kafel ürünleri</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ormanflooring.com/#kafel-8</loc>
+    <lastmod>2024-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ormanflooring.com/images/kafels/kaf_8/1.webp</image:loc>
+      <image:title>Kafel Ürün Serisi 8</image:title>
+      <image:caption>Rustik kafel tasarımları</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ormanflooring.com/#kafel-9</loc>
+    <lastmod>2024-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ormanflooring.com/images/kafels/kaf_9/1.webp</image:loc>
+      <image:title>Kafel Ürün Serisi 9</image:title>
+      <image:caption>Çağdaş kafel çözümleri</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ormanflooring.com/#kafel-10</loc>
+    <lastmod>2024-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ormanflooring.com/images/kafels/kaf_10/1.webp</image:loc>
+      <image:title>Kafel Ürün Serisi 10</image:title>
+      <image:caption>Premium kafel seçenekleri</image:caption>
+    </image:image>
+  </url>
+
+</urlset>

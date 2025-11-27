@@ -1,0 +1,77 @@
+{
+  "name": "ORMAN Flooring - Birinci Sınıf Sert Ahşap Zemin",
+  "short_name": "ORMAN Flooring",
+  "description": "Türkiye'nin en kaliteli sert ahşap zemin ve parke döşeme hizmetleri. Uzman ekibimizle evinizi ve iş yerinizi güzelleştirin.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#8B4513",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "tr",
+  "dir": "ltr",
+  "categories": ["business", "lifestyle", "shopping"],
+  "icons": [
+    {
+      "src": "/images/logo.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/logo.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Hizmetlerimiz",
+      "short_name": "Hizmetler",
+      "description": "ORMAN Flooring hizmetlerini görüntüle",
+      "url": "/#hizmetlerimiz",
+      "icons": [
+        {
+          "src": "/icons/1.webp",
+          "sizes": "96x96",
+          "type": "image/webp"
+        }
+      ]
+    },
+    {
+      "name": "Ürün Galerisi",
+      "short_name": "Galeri",
+      "description": "Sert ahşap zemin ürün galerisini incele",
+      "url": "/#urun-galerisi",
+      "icons": [
+        {
+          "src": "/icons/2.webp",
+          "sizes": "96x96",
+          "type": "image/webp"
+        }
+      ]
+    },
+    {
+      "name": "İletişim",
+      "short_name": "İletişim",
+      "description": "ORMAN Flooring ile iletişime geç",
+      "url": "/#iletisim",
+      "icons": [
+        {
+          "src": "/icons/3.webp",
+          "sizes": "96x96",
+          "type": "image/webp"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}
