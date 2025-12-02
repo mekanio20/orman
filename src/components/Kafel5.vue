@@ -24,7 +24,7 @@
             <div :class="['flex-1 space-y-3 sm:space-y-4 fade-in-right', { 'visible': isRightVisible }]">
                 <div class="flex items-end justify-between fade-in-up delay-100" :class="{ 'visible': isRightVisible }">
                     <div class="w-16 sm:w-20 md:w-24">
-                        <img src="/images/logo.webp" class="w-full h-auto image-hover">
+                        <img src="/favicon.png" class="w-full h-auto image-hover">
                     </div>
                     <div class="w-20 sm:w-24 md:w-[115px]">
                         <img src="/images/orman.webp" class="w-full h-auto image-hover">

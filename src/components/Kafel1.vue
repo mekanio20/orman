@@ -14,7 +14,7 @@
       <div ref="rightContentRef"
         :class="['h-full flex flex-col justify-between py-4 fade-in-right', { 'visible': isRightContentVisible }]">
         <!-- Logo -->
-        <img src="/images/logo.webp" alt="Orman Logo"
+        <img src="/favicon.png" alt="Orman Logo"
           :class="['w-28 image-hover delay-100', { 'visible': isRightContentVisible }]" />
 
         <!-- Ürün görseli -->

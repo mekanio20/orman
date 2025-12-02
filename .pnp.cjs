@@ -34,6 +34,7 @@ const RAW_RUNTIME_STATE =
           ["orman", "workspace:."],\
           ["postcss", "npm:8.5.6"],\
           ["tailwindcss", "npm:3.4.18"],\
+          ["terser", "npm:5.44.1"],\
           ["unplugin-auto-import", "virtual:2daec538726a4ab4dc351a6988bcd5ab31aa8e4ee655eec1cbfb46fe3d0b49c1cc3d2b6836fb86dfdc3f6edb77cc26a12b033d3647e4d0e5ccfeb2d3b71bfeba#npm:20.2.0"],\
           ["unplugin-vue-components", "virtual:2daec538726a4ab4dc351a6988bcd5ab31aa8e4ee655eec1cbfb46fe3d0b49c1cc3d2b6836fb86dfdc3f6edb77cc26a12b033d3647e4d0e5ccfeb2d3b71bfeba#npm:30.0.0"],\
           ["vite", "virtual:2daec538726a4ab4dc351a6988bcd5ab31aa8e4ee655eec1cbfb46fe3d0b49c1cc3d2b6836fb86dfdc3f6edb77cc26a12b033d3647e4d0e5ccfeb2d3b71bfeba#npm:7.1.12"],\
@@ -385,6 +386,17 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/@jridgewell-resolve-uri-npm-3.1.2-5bc4245992-10c0.zip/node_modules/@jridgewell/resolve-uri/",\
         "packageDependencies": [\
           ["@jridgewell/resolve-uri", "npm:3.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@jridgewell/source-map", [\
+      ["npm:0.3.11", {\
+        "packageLocation": "../../../.yarn/berry/cache/@jridgewell-source-map-npm-0.3.11-4cf013eacf-10c0.zip/node_modules/@jridgewell/source-map/",\
+        "packageDependencies": [\
+          ["@jridgewell/gen-mapping", "npm:0.3.13"],\
+          ["@jridgewell/source-map", "npm:0.3.11"],\
+          ["@jridgewell/trace-mapping", "npm:0.3.31"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1015,6 +1027,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["buffer-from", [\
+      ["npm:1.1.2", {\
+        "packageLocation": "../../../.yarn/berry/cache/buffer-from-npm-1.1.2-03d2f20d7e-10c0.zip/node_modules/buffer-from/",\
+        "packageDependencies": [\
+          ["buffer-from", "npm:1.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["cacache", [\
       ["npm:19.0.1", {\
         "packageLocation": "../../../.yarn/berry/cache/cacache-npm-19.0.1-395cba1936-10c0.zip/node_modules/cacache/",\
@@ -1108,6 +1129,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["commander", [\
+      ["npm:2.20.3", {\
+        "packageLocation": "../../../.yarn/berry/cache/commander-npm-2.20.3-d8dcbaa39b-10c0.zip/node_modules/commander/",\
+        "packageDependencies": [\
+          ["commander", "npm:2.20.3"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:4.1.1", {\
         "packageLocation": "../../../.yarn/berry/cache/commander-npm-4.1.1-22a0fe921b-10c0.zip/node_modules/commander/",\
         "packageDependencies": [\
@@ -2025,6 +2053,7 @@ const RAW_RUNTIME_STATE =
           ["orman", "workspace:."],\
           ["postcss", "npm:8.5.6"],\
           ["tailwindcss", "npm:3.4.18"],\
+          ["terser", "npm:5.44.1"],\
           ["unplugin-auto-import", "virtual:2daec538726a4ab4dc351a6988bcd5ab31aa8e4ee655eec1cbfb46fe3d0b49c1cc3d2b6836fb86dfdc3f6edb77cc26a12b033d3647e4d0e5ccfeb2d3b71bfeba#npm:20.2.0"],\
           ["unplugin-vue-components", "virtual:2daec538726a4ab4dc351a6988bcd5ab31aa8e4ee655eec1cbfb46fe3d0b49c1cc3d2b6836fb86dfdc3f6edb77cc26a12b033d3647e4d0e5ccfeb2d3b71bfeba#npm:30.0.0"],\
           ["vite", "virtual:2daec538726a4ab4dc351a6988bcd5ab31aa8e4ee655eec1cbfb46fe3d0b49c1cc3d2b6836fb86dfdc3f6edb77cc26a12b033d3647e4d0e5ccfeb2d3b71bfeba#npm:7.1.12"],\
@@ -2517,11 +2546,31 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["source-map", [\
+      ["npm:0.6.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/source-map-npm-0.6.1-1a3621db16-10c0.zip/node_modules/source-map/",\
+        "packageDependencies": [\
+          ["source-map", "npm:0.6.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["source-map-js", [\
       ["npm:1.2.1", {\
         "packageLocation": "../../../.yarn/berry/cache/source-map-js-npm-1.2.1-b9a47d7e1a-10c0.zip/node_modules/source-map-js/",\
         "packageDependencies": [\
           ["source-map-js", "npm:1.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["source-map-support", [\
+      ["npm:0.5.21", {\
+        "packageLocation": "../../../.yarn/berry/cache/source-map-support-npm-0.5.21-09ca99e250-10c0.zip/node_modules/source-map-support/",\
+        "packageDependencies": [\
+          ["buffer-from", "npm:1.1.2"],\
+          ["source-map", "npm:0.6.1"],\
+          ["source-map-support", "npm:0.5.21"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2652,6 +2701,19 @@ const RAW_RUNTIME_STATE =
           ["minizlib", "npm:3.1.0"],\
           ["tar", "npm:7.5.1"],\
           ["yallist", "npm:5.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["terser", [\
+      ["npm:5.44.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/terser-npm-5.44.1-48464a937a-10c0.zip/node_modules/terser/",\
+        "packageDependencies": [\
+          ["@jridgewell/source-map", "npm:0.3.11"],\
+          ["acorn", "npm:8.15.0"],\
+          ["commander", "npm:2.20.3"],\
+          ["source-map-support", "npm:0.5.21"],\
+          ["terser", "npm:5.44.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2920,7 +2982,7 @@ const RAW_RUNTIME_STATE =
           ["sass-embedded", null],\
           ["stylus", null],\
           ["sugarss", null],\
-          ["terser", null],\
+          ["terser", "npm:5.44.1"],\
           ["tinyglobby", "npm:0.2.15"],\
           ["tsx", null],\
           ["vite", "virtual:2daec538726a4ab4dc351a6988bcd5ab31aa8e4ee655eec1cbfb46fe3d0b49c1cc3d2b6836fb86dfdc3f6edb77cc26a12b033d3647e4d0e5ccfeb2d3b71bfeba#npm:7.1.12"],\

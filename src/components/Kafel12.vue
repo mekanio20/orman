@@ -3,7 +3,7 @@
         <div
             :class="['w-full flex items-end justify-between pb-4 sm:pb-5 md:pb-6 fade-in-up', { 'visible': isHeaderVisible }]">
             <div class="w-16 sm:w-20 md:w-24">
-                <img src="/images/logo.webp" class="w-full h-auto image-hover">
+                <img src="/favicon.png" class="w-full h-auto image-hover">
             </div>
             <div class="w-20 sm:w-24 md:w-[115px]">
                 <img src="/images/orman.webp" class="w-full h-auto image-hover">

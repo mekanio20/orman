@@ -144,7 +144,7 @@ ErrorDocument 500 /index.html
     <FilesMatch "index\.html$">
         Header add Link "</assets/index.css>; rel=preload; as=style"
         Header add Link "</assets/index.js>; rel=preload; as=script"
-        Header add Link "</images/logo.webp>; rel=preload; as=image"
+        Header add Link "</favicon.png>; rel=preload; as=image"
         Header add Link "</images/bg.webp>; rel=preload; as=image"
     </FilesMatch>
 </IfModule>
